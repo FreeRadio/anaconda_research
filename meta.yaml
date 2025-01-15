@@ -1,0 +1,20 @@
+package:
+  name: cpp-httplib
+  version: 1.0
+
+source:
+  git_url: https://github.com/yhirose/cpp-httplib.git
+  git_tag: v0.18.3
+
+requirements:
+  build:
+    - cmake
+    - make
+    - clangxx_osx-64
+  run:
+    - openssl
+    
+about:
+  home: https://github.com/yhirose/cpp-httplib.git
+  license: MIT
+  summary: web server for C++
